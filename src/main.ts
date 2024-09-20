@@ -139,6 +139,7 @@ export async function run(): Promise<void> {
     );
 
     let cmd = [
+      'beta',
       'compute',
       'ssh',
       instanceTarget,
